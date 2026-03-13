@@ -1,0 +1,164 @@
+html {
+            scroll-behavior: smooth;
+        }
+#footer {
+    width: " ";
+    border-top: 1px solid #999999;
+    padding-left: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 50px auto;
+    font-family: "Lato";
+    font-weight: 300;
+	display: flex;
+  }
+  
+  form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+ 
+
+  
+  form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  input {
+    font-family: "Lato";
+  }
+  
+  a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+.circle-image{
+	  border-radius: 50%;
+	  width: 30px; 
+      height: 30px; 
+	
+}
+.item{
+	display: inline-block; /* 设置为内联块元素 */
+    box-sizing: border-box;
+}
+.image-container {
+	display: flex;
+	 clear: both;
+        overflow: hidden;
+        margin-bottom: 15px;
+	margin-left: 50px;
+        }
+.image2{
+	width: 200px; /* 设置图片宽度为200px */
+    height: 150px;
+}
+.message-container{
+	display: flex;
+	 clear: both;
+        overflow: hidden;
+        margin-bottom: 15px;
+	margin-left: 50px;
+}
+ .message {
+             display: inline-block; /* 设置为内联块元素，使其高度自适应内容 */
+            border: 2px solid #333; /* 设置边框为2px宽度、实线、颜色为#333 */
+            padding: 10px; /* 设置内边距为10px，以便边框与内容之间有间隙 */
+	    border-radius: 10px;
+	  margin-bottom: 15px;
+        }
+ .message2 {
+	         float: right;
+             display: inline-block; /* 设置为内联块元素，使其高度自适应内容 */
+            border: 2px solid #333; /* 设置边框为2px宽度、实线、颜色为#333 */
+            padding: 10px; /* 设置内边距为10px，以便边框与内容之间有间隙 */
+	    border-radius: 10px;
+	  margin-bottom: 15px;
+        }
+  #wrapper {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: #eee;
+    width: 1000px;
+    max-width: 100%;
+    border: 2px solid #212121;
+    border-radius: 4px;
+  }
+  
+  #chatbox {
+	display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background: #fff;
+    height: 600px;
+    width: 800px;
+    border: 1px solid #a7a7a7;
+    overflow: auto;
+    border-radius: 4px;
+    border-bottom: 4px solid #a7a7a7;
+  }
+  
+  #usermsg {
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+  
+  #submitmsg{
+    background: black;
+    border: 2px solid white;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  #menu {
+	      opacity: 1; 
+	  	position: fixed; /* 将 div 固定在页面上 */
+        top: 0; /* 位于页面顶部 */
+        left: 0; /* 位于页面左侧 */
+        width: 100%; /* 宽度占据整个页面 */
+        height: 10%;
+    display: flex;
+  }
+  
+  #menu p.welcome {
+    flex: 1;
+	font-size: 25px;
+	  position: absolute; /* 将元素设置为绝对定位 */
+    top: 7px; /* 距离页面顶部 100px */
+    left: 5px; 
+  }
+  
+  a#exit {
+    color: white;
+    background: black;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+	position: absolute; /* 将元素设置为绝对定位 */
+    top: 7px; /* 距离页面顶部 100px */
+    right: 5px; 
+  }
+#bottom-anchor {
+            position: absolute;
+            bottom: 0;
+        }
+        /* 通过:target伪类选择器让页面滚动到底部 */
+#bottom-anchor：target {
+            visibility: hidden;
+        }
