@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+#header {
+    width: 750px;
+    height: 60px;
+}
+#header h1 {
+    color: #888;
+    font-size: 36px;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: -20px;	
+}
+
+#header h2 {
+    color: #CCC;
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: right;
+}
+
+#navigation {
+    width: 750px;
+    height: 40px;
+    min-width: px;
+    background-color: #FAFAFA;
+    border-top: 1px solid #999999;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+#navigation ul {
+    margin: 0px;
+    padding: 0px;
+}
+#navigation ul li {
+    width: 149px;
+    å
